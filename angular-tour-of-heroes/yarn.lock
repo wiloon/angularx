@@ -319,6 +319,13 @@
     semver "5.6.0"
     semver-intersect "1.4.0"
 
+"@types/echarts@^4.1.10":
+  version "4.1.10"
+  resolved "https://registry.yarnpkg.com/@types/echarts/-/echarts-4.1.10.tgz#ee71911eb8b1717c7c12c0bd81fc83db872f4d3b"
+  integrity sha512-AadUmn1mHp0RGNFwcDnNdVbz5LNZZla7V9B+3ptyEp31qiyRK0Hfr2yQLD26/4ojcLDSmUzyGfVrHrEXxgUmuA==
+  dependencies:
+    "@types/zrender" "*"
+
 "@types/jasmine@*":
   version "3.3.13"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.13.tgz#d5daabb0af47bcddee40597acf6e804433bab439"
@@ -369,6 +376,11 @@
     "@types/node" "*"
     "@types/source-list-map" "*"
     source-map "^0.6.1"
+
+"@types/zrender@*":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/zrender/-/zrender-4.0.0.tgz#a6806f12ec4eccaaebd9b0d816f049aca6188fbd"
+  integrity sha512-s89GOIeKFiod2KSqHkfd2rzx+T2DVu7ihZCBEBnhFrzvQPUmzvDSBot9Fi1DfMQm9Odg+rTqoMGC38RvrwJK2w==
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -2119,6 +2131,13 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
+
+echarts@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-4.2.1.tgz#9a8ea3b03354f86f824d97625c334cf16965ef03"
+  integrity sha512-pw4xScRPsLegD/cqEcoXRKeA2SD4+s+Kyo0Na166NamOWhzNl2yI5RZ2rE97tBlAopNmhyMeBVpAeD5qb+ee1A==
+  dependencies:
+    zrender "4.0.7"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -4396,6 +4415,13 @@ neo-async@^2.5.0, neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+ngx-echarts@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/ngx-echarts/-/ngx-echarts-4.2.1.tgz#c1c228d2db8172742c51e5f0792c140fe4c555df"
+  integrity sha512-wdlIAkvnR9A1Wv4z8RMD2MX1Zinp9SmiCCu70nVYColV1c0LnFt0Ur85Uu/3yZlE/Yl1BblB5IAnHA3/iOG8cw==
+  dependencies:
+    tslib "^1.9.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -7263,3 +7289,8 @@ zone.js@~0.8.26:
   version "0.8.29"
   resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.29.tgz#8dce92aa0dd553b50bc5bfbb90af9986ad845a12"
   integrity sha512-mla2acNCMkWXBD+c+yeUrBUrzOxYMNFdQ6FGfigGGtEVBPJx07BQeJekjt9DmH1FtZek4E9rE1eRR9qQpxACOQ==
+
+zrender@4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-4.0.7.tgz#15ae960822f5efed410995d37e5107fe3de10e6d"
+  integrity sha512-TNloHe0ums6zxbHfnaCryM61J4IWDajZwNq6dHk9vfWhhysO/OeFvvR0drBs/nbXha2YxSzfQj2FiCd6RVBe+Q==
